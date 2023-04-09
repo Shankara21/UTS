@@ -1,0 +1,68 @@
+{
+  "brand": [
+    {
+      "id": 1,
+      "name": "Honda"
+    },
+    {
+      "id": 2,
+      "name": "Yamaha"
+    },
+    {
+      "id": 3,
+      "name": "Suzuki"
+    },
+    {
+      "name": "Testing",
+      "id": 4
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Motor"
+    },
+    {
+      "id": 2,
+      "name": "Mobil"
+    },
+    {
+      "id": 3,
+      "name": "Truk"
+    }
+  ],
+  "kendaraan": [
+    {
+      "id": 1,
+      "name": "Beat",
+      "color": "Merah",
+      "price": 10000000
+    },
+    {
+      "id": 2,
+      "name": "Vario",
+      "color": "Hitam",
+      "price": 20000000
+    },
+    {
+      "id": 3,
+      "name": "Nmax",
+      "color": "Putih",
+      "price": 30000000
+    }
+  ],
+  "bank": [
+    {
+      "id": 1,
+      "name": "BRI"
+    },
+    {
+      "id": 2,
+      "name": "BNI"
+    },
+    {
+      "id": 3,
+      "name": "BCA"
+    }
+  ]
+}
