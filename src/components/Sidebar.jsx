@@ -10,7 +10,7 @@ export default function Sidebar() {
           <ul>
             <li className="p-5">
               <Link to='/brands' >
-                <i className="text-3xl fa-brands fa-bandcamp"></i>
+                <i className="text-3xl fa-solid fa-tag"></i>
               </Link>
             </li>
             <li className="p-5">
@@ -20,7 +20,7 @@ export default function Sidebar() {
             </li>
             <li className="p-5">
               <Link to='/banks' >
-                <i class="text-3xl fa-solid fa-building-columns"></i>
+                <i className="text-3xl fa-solid fa-building-columns"></i>
               </Link>
             </li>
             <li className="p-5">
@@ -29,7 +29,7 @@ export default function Sidebar() {
               </Link>
             </li>
 
-           
+
           </ul>
         </div>
       </div>
