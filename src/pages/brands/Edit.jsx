@@ -37,7 +37,7 @@ export default function BrandEdit() {
   return (
     <div>
       <Link to='/brands' className='mb-3 btn'> Kembali</Link>
-      <p className='mb-4 text-2xl font-semibold'>Create Brands</p>
+      <p className='mb-4 text-2xl font-semibold'>Update Brands</p>
       <div className="w-full max-w-xs mb-4 form-control">
         <label className="label">
           <span className="label-text">Name</span>
