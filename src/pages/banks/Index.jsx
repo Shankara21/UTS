@@ -46,6 +46,7 @@ export default function BankIndex() {
             <tr>
               <th>No</th>
               <th className='text-center'>Name</th>
+              <th className='text-center'>Nomor Rekening</th>
               <th className='text-center'>action</th>
             </tr>
           </thead>
@@ -56,6 +57,7 @@ export default function BankIndex() {
                   <tr key={index}>
                     <th>{index + 1}</th>
                     <td className='text-center'>{bank.name}</td>
+                    <td className='text-center'>{bank.no_rek}</td>
                     <td className='text-center'>
                       <div className="flex items-center justify-center gap-2">
                         <Link to={'/banks/'+bank.id} className="text-black bg-yellow-400 border-0 hover:bg-yellow-500 btn">Edit</Link>

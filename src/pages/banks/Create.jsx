@@ -6,7 +6,8 @@ import { Navigate, useNavigate } from 'react-router-dom';
 export default function BankCreate() {
   const navigate = useNavigate();
   const [form, setForm] = useState({
-    name: ''
+    name: '',
+    no_rek: ''
   })
   const handleChange = (e) => {
     setForm({
@@ -34,6 +35,12 @@ export default function BankCreate() {
           <span className="label-text">Name</span>
         </label>
         <input type="text" placeholder="Name" name='name' onChange={handleChange} value={form.name} className="w-full max-w-xs input input-bordered" />
+      </div>
+      <div className="w-full max-w-xs mb-4 form-control">
+        <label className="label">
+          <span className="label-text">Nomor Rekening</span>
+        </label>
+        <input type="number" min={0} placeholder="Nomor Rekening" name='no_rek' onChange={handleChange} value={form.no_rek} className="w-full max-w-xs input input-bordered" />
       </div>
       <button className='bg-blue-500 border-0 hover:bg-blue-600 btn' onClick={handleSubmit}>Submit</button>
     </div>

@@ -44,6 +44,12 @@ export default function BankEdit() {
         </label>
         <input type="text" placeholder="Name" name='name' onChange={(e) => setBanks({ ...banks, name: e.target.value })} value={banks.name} className="w-full max-w-xs input input-bordered" />
       </div>
+      <div className="w-full max-w-xs mb-4 form-control">
+        <label className="label">
+          <span className="label-text">Nomor Rekening</span>
+        </label>
+        <input type="number" min={0} placeholder="Nomor Rekening" name='no_rek' onChange={(e) => setBanks({ ...banks, no_rek: e.target.value })} value={banks.no_rek} className="w-full max-w-xs input input-bordered" />
+      </div>
       <button className='bg-blue-500 border-0 hover:bg-blue-600 btn' onClick={handleSubmit}>Submit</button>
     </div>
   )
